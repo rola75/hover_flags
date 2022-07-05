@@ -1,0 +1,63 @@
+* {
+margin: 0;
+padding: 0;
+background-color: #e7d6d6;
+box-sizing: border-box;
+}
+
+#flag1 {
+    width: 600px;
+    height: 330px;
+    margin: 40px 40px 0;
+}
+
+#flag2 {
+    width: 600px;
+    height: 330px;
+    margin: 40px 40px 0;
+    display: flex;
+
+}
+
+.g1, .g2, .g3 {
+    width: 100%;
+    height: 33%;
+}
+
+.g1 {
+    background-color: black;
+}
+
+.g2 {
+background-color: red;
+}
+
+.g3 {
+background-color: yellow;
+}
+
+.f1, .f2, .f3 {
+    width: 100%;
+    height: 100%;
+}
+
+.f1 {background-color: blue;}
+.f2 {background-color: white;}
+.f3 {background-color: red;}
+
+div:hover .g1{
+    background-color: red;
+}
+div:hover .g2{
+    background-color: white;
+}div:hover .g3{
+    background-color: green;
+}
+
+div:hover .f1{
+    background-color: green;
+}div:hover .f2{
+    background-color: white;
+}div:hover .f3{
+    background-color: orange;
+}
